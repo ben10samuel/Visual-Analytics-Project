@@ -3,7 +3,7 @@ Multidimensional Scaling (MDS) stands as a potent tool for uncovering patterns w
 
 ## Python Code Overview:
 The provided Python code performs the following tasks:
-1.Reading and preprocessing documents from a folder.
+1.Reading and preprocessing documents from a folder.The dataset can used using the API kaggle datasets download -d bensamuel/documents
 2.Extracting entities from documents using spaCy.
 3.Building a document-entity matrix based on entity occurrences.
 4.Applying Multidimensional Scaling (MDS) to reduce dimensionality.
